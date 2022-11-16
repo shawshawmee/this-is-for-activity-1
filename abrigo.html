@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <div class="row p-5 gx-5 ms-3 me-3">
+            <div class="col-lg-5">
+                <h4>Your Cart <span class="badge rounded-pill text-bg-primary float-end">3</span></h4>
+                <br>
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Product Name <div class="text-muted">Brief Description</div>
+                        </li>
+                        <li class="list-group-item">Second Product <div class="text-muted">Brief Description</div>
+                        </li>
+                        <li class="list-group-item">Third Item <div class="text-muted">Brief Description</div>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <div class="card mb-3">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Promo Code">
+                                <span class="input-group-text bg-dark opacity-75 text-white"><small
+                                        class="fs-6">Redeem</small></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h5>Billing Address</h5>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="inputtext1" class="form-label">First Name</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="inputtext1">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputtext2" class="form-label">Last Name</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="inputtext2">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputusername" class="form-label">Username</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="inputemail" class="form-label">E-mail <small
+                                class="text-muted">(optional)</small></label>
+                        <input type="email" class="form-control" id="inputAddress2" placeholder="you@example.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Barangay</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress3" class="form-label">City</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label">Province</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputZipCode" class="form-label">Zip Code</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <hr>
+                <h5>Payment</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Credit Card
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Debit Card
+                    </label>
+                </div><br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="input-text" class="form-label">Name on Card</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="input-text" class="form-label">Credit Card Number</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <figure class="figure">
+                        <figcaption class="figure-caption">Full Name as displayed on card</figcaption>
+                    </figure>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">Expiration</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputCity" class="form-label">CVV</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <hr>
+                <div class="d-grid">
+                    <button class="btn btn-primary" type="button">Continue to Check-out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
