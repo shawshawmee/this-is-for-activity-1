@@ -10,7 +10,7 @@ function UserInfo() {
 
     return (
         <div className="card shadow">
-            <div className="card-body m-3">
+            <div className="card-body m-sm-2">
                 <h3 className="card-text fw-bold">
                     {user.name}
                 </h3>

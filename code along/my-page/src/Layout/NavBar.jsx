@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
-    const activeLink = "bg-danger rounded-pill";
+    const activeLink = "bg-danger shadow rounded-pill";
     const normalLink = "";
 
     return (
