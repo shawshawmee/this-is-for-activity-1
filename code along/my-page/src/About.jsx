@@ -1,40 +1,53 @@
-import Carousel from 'react-bootstrap/Carousel';
-
 function About() {
     return (
-        <div className='container mt-5 pt-5'>
-            <Carousel fade>
-                <Carousel.Item interval={1000}>
-                    <img
-                        className="img-fluid d-flex mx-auto w-100"
-                        style={{ height: "60vh" }}
-                        src="https://cdn.pixabay.com/photo/2022/12/03/20/25/man-7633372__340.jpg"
-                        alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item interval={1000}>
-                    <img
-                        className="img-fluid d-flex mx-auto w-100"
-                        style={{ height: "60vh" }}
-                        src="https://cdn.pixabay.com/photo/2017/08/12/14/59/sad-boy-2634521__340.jpg"
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item interval={1000}>
-                    <img
-                        className="img-fluid d-flex mx-auto w-100"
-                        style={{ height: "60vh" }}
-                        src="https://cdn.pixabay.com/photo/2021/11/14/18/16/woman-6795381__340.jpg"
-                        alt="Third slide"
-                    />
-                </Carousel.Item>
-            </Carousel>
-            <img src="" className="img-fluid d-block w-100"></img>
-            <div className="text-center p-5">
-                <h3 className="display-5 mb-3"><strong>ABOUT US.</strong>
+        <div className='container border shadow mx-auto m-4 p-5'>
+            <div className="text-center mb-4 display-5">
+                <h3 className=""><strong>GROUP 5</strong>
                 </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo temporibus tempora maiores veniam provident distinctio ad, repellendus vel, fuga a modi. Omnis assumenda magnam, 
-                    nesciunt ducimus pariatur harum id ut.</p>
+                <p>“Don't worry if it doesn't work right. If everything did, you'd be out of a job.”</p>
+            </div>
+            <div className="border p-5">
+                <div className="row">
+                    <div className="col-md-12 d-flex justify-content-center">
+                        <div className="col-md-3 text-center">
+                            <img src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317__340.png" className='img-fluid d-block w-100 rounded-circle' />
+                            <div className="mt-3 mb-5">
+                                <h4>Janus Imus</h4>
+                                <p>Group Leader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row gy-4 text-center">
+                    <div className="col-md-3">
+                        <img src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317__340.png" className='img-fluid d-block w-100 rounded-circle' />
+                        <div className="mt-3">
+                            <h4>Arnel Coronado</h4>
+                            <p>Group Member</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <img src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317__340.png" className='img-fluid d-block w-100 rounded-circle' />
+                        <div className="mt-3">
+                            <h4>Darryl Sanga</h4>
+                            <p>Group Member</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <img src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317__340.png" className='img-fluid d-block w-100 rounded-circle' />
+                        <div className="mt-3">
+                            <h4>Elmo Nickol Laplap</h4>
+                            <p>Group Member</p>
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <img src="https://cdn.pixabay.com/photo/2016/04/25/07/15/man-1351317__340.png" className='img-fluid d-block w-100 rounded-circle' />
+                        <div className="mt-3">
+                            <h4>Charlie Abrigo</h4>
+                            <p>Group Member</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
