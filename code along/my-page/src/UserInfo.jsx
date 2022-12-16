@@ -14,12 +14,12 @@ function UserInfo() {
                 <h3 className="card-text fw-bold">
                     {user.name}
                 </h3>
-                <p className="card-text">
+                <figcaption className="card-text">
                     {user.email}
-                </p>
-                <p className="card-text">
+                </figcaption>
+                <figcaption className="card-text">
                     {user.bio}
-                </p>
+                </figcaption>
             </div>
         </div>
     )

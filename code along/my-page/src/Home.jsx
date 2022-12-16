@@ -1,5 +1,4 @@
 import React from 'react';
-import './Home.css';
 import Newsfeed from "./Newsfeed";
 import Time from './Time';
 import UserInfo from './UserInfo';

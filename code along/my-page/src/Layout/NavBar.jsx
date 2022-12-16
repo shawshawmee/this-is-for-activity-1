@@ -1,6 +1,12 @@
-import "./Home.css";
+import { NavLink } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
+    const activeLink = "bg-danger rounded-pill";
+    const normalLink = "";
     return (
         <Navbar className="bg-dark bg-gradient" variant="dark" sticky="top" expand="lg">
             <Container>
@@ -9,9 +15,9 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="navbarScroll" className="border-0" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="ms-auto my-2 my-lg-0 gap-2">
-                        <NavLink to="/"><Button className="border-0 navbar" variant="outline-light rounded-pill">Home</Button>{' '}</NavLink>
-                        <NavLink to="/about"><Button className="border-0 navbar" variant="outline-light rounded-pill">About</Button>{' '}</NavLink>
-                        <NavLink to="/contact"><Button className="border-0 navbar" variant="outline-light rounded-pill">Contact</Button>{' '}</NavLink>
+                        <NavLink to="/" className={({ isActive }) => (isActive ? activeLink: normalLink)}><Button className="border-0" variant="outline-transparent text-white">Home</Button>{' '}</NavLink>
+                        <NavLink to="/about" className={({ isActive }) => (isActive ? activeLink: normalLink)}><Button className="border-0" variant="outline-transparent text-white">About</Button>{' '}</NavLink>
+                        <NavLink to="/contact" className={({ isActive }) => (isActive ? activeLink: normalLink)}><Button className="border-0" variant="outline-transparent text-white">Contact</Button>{' '}</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
