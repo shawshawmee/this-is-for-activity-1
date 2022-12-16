@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className='container border shadow mx-auto m-5 p-5'>
+        <div className='container border rounded shadow mx-auto m-5 p-5'>
             <div className="text-center mb-4 display-5">
                 <h3 className=""><strong>GROUP 5</strong>
                 </h3>

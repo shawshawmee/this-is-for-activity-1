@@ -9,7 +9,7 @@ function NavBar() {
     const normalLink = "";
 
     return (
-        <Navbar className="container-fluid bg-dark bg-gradient" variant="dark" sticky="top" expand="lg">
+        <Navbar className="container-fluid bg-success bg-gradient" variant="dark" sticky="top" expand="lg">
             <Container>
                 <p className="text-white d-none d-lg-block">sabaw</p>
                 <img className="img-fluid d-block ms-2" style={{ width: "40px", height: "40px" }} src="https://cdn.pixabay.com/photo/2022/03/29/15/26/cat-7099597_960_720.png" to="/"></img>

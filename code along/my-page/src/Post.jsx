@@ -18,7 +18,7 @@ function Post() {
     return (
         <div className='p-2'>
             {data && data.map(item => (
-                <div className='border mb-3 mt-3 p-4 shadow'>
+                <div className='border rounded mb-3 mt-3 p-4 shadow'>
                     <h5 key={item.id}>{item.title.charAt(0).toUpperCase()+item.title.slice(1)}</h5>
                     <small key={item.id}>{item.body.charAt(0).toUpperCase()+item.body.slice(1)}</small>
                 </div>
